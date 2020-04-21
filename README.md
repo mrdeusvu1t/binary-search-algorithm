@@ -1,1 +1,1 @@
-﻿Implement a binary search algorithm for integer array.
+﻿﻿﻿﻿Implement a [binary search algorithm](https://en.wikipedia.org/wiki/Binary_search_algorithm) for integer array- recursive;- iterative.
