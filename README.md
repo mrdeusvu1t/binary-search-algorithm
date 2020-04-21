@@ -1,1 +1,1 @@
-# AutoCode-Tasks-BinarySearchTask
+﻿Implement a binary search algorithm for integer array.
