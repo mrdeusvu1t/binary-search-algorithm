@@ -8,7 +8,7 @@ namespace BinarySearchTask
     public static class ArrayExtension
     {
         /// <summary>
-        /// Implement binary search, see https://en.wikipedia.org/wiki/Binary_search_algorithm.
+        /// Implements binary search, see https://en.wikipedia.org/wiki/Binary_search_algorithm.
         /// </summary>
         /// <param name="source">Source sorted array.</param>
         /// <param name="value">Value to search.</param>
