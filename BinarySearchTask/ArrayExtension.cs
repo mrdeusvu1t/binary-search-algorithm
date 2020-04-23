@@ -24,7 +24,7 @@ namespace BinarySearchTask
         /// </example>
         public static int? BinarySearch(int[] source, int value)
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException("You need to implement this function.");
         }
     }
 }
