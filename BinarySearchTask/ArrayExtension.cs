@@ -17,7 +17,6 @@ namespace BinarySearchTask
         /// If element is not found returns null.
         /// </returns>
         /// <exception cref="ArgumentNullException">Thrown when array is null.</exception>
-        /// <exception cref="ArgumentException">Thrown when array is empty.</exception>
         /// <example>
         /// source = {1, 3, 4, 6, 8, 9, 11}, value = 11 => 6,
         /// source = {1, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 634}, value = 144 => 9,
@@ -39,7 +38,6 @@ namespace BinarySearchTask
         /// If element is not found returns null.
         /// </returns>
         /// <exception cref="ArgumentNullException">Thrown when array is null.</exception>
-        /// <exception cref="ArgumentException">Thrown when array is empty.</exception>
         /// <example>
         /// source = {1, 3, 4, 6, 8, 9, 11}, value = 11 => 6,
         /// source = {1, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 634}, value = 144 => 9,
