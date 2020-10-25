@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using NUnit.Framework;
 using static BinarySearchTask.ArrayExtension;
 
@@ -33,11 +33,6 @@ namespace BinarySearchTask.Tests
         [Test]
         public void BinarySearch_SourceArrayIsNull_ThrowArgumentNullException()
             => Assert.Throws<ArgumentNullException>(() => BinarySearch(null, 1), "Source array cannot be null.");
-
-        [Test]
-        public void BinarySearch_ArrayIsEmpty_ThrowArgumentException() =>
-            Assert.Throws<ArgumentException>(() => BinarySearch(Array.Empty<int>(), 1), message: "Source array cannot be empty.");
-
         
         [TestCase(new[] { 6 }, 6, ExpectedResult = 0)]
         [TestCase(new[] { 1, 3, 4, 6, 8, 9, 11 }, 6, ExpectedResult = 3)]
@@ -64,10 +59,6 @@ namespace BinarySearchTask.Tests
         [Test]
         public void BinarySearchRecursively_SourceArrayIsNull_ThrowArgumentNullException()
             => Assert.Throws<ArgumentNullException>(() => BinarySearchRecursively(null, 1), "Source array cannot be null.");
-        
-        [Test]
-        public void BinarySearchRecursively_ArrayIsEmpty_ThrowArgumentException() =>
-            Assert.Throws<ArgumentException>(() => BinarySearchRecursively(Array.Empty<int>(), 1), message: "Source array cannot be empty.");
 
     }
 }
